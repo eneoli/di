@@ -1,0 +1,1 @@
+export type Constructor<TArgumentArray extends unknown[], TClass = Object> = { new(...args: TArgumentArray): TClass };
